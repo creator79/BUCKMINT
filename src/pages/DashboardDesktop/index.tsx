@@ -16,7 +16,7 @@ export default function DashboardDesktopPage() {
   const [searchBarValue, setSearchBarValue] = React.useState("");
   const [collapsed, setCollapsed] = React.useState(false);
   const [Modals, setModals] = React.useState(false);
-  const {  toggleModal } = useModal();
+  const { toggleModal } = useModal();
 
   const handleModal = (e) => {
     e.preventDefault();
@@ -222,13 +222,13 @@ export default function DashboardDesktopPage() {
                         name="admirrajohn"
                         placeholder="Admirra John"
                         options={dropDownOptions}
-                        className="flex w-[73%] pr-7 gap-px py-px text-black-900_33 text-base font-medium"
+                        className="flex w-[73%] pr-7 gap-px py-px text-black-900 text-base font-medium"
                       />
                     </div>
                   </div>
                 </header>
                 <div className="flex flex-row justify-start mt-3 py-3">
-                  <Text size="2xl" as="p" className="text-black-900_33">
+                  <Text size="2xl" as="p" className="text-black-900">
                     Dashboard
                   </Text>
                 </div>
@@ -239,14 +239,14 @@ export default function DashboardDesktopPage() {
                         <Text
                           size="2xl"
                           as="p"
-                          className="ml-2 md:ml-0 text-black-900_33 !text-lg"
+                          className="ml-2 md:ml-0 text-black-900 !text-lg"
                         >
                           Available Position
                         </Text>
                         <Text
                           size="4xl"
                           as="p"
-                          className="ml-2 md:ml-0 text-black-900_33 !text-4xl"
+                          className="ml-2 md:ml-0 text-black-900 !text-4xl"
                         >
                           24
                         </Text>
@@ -261,14 +261,14 @@ export default function DashboardDesktopPage() {
                         <Text
                           size="2xl"
                           as="p"
-                          className="ml-1.5 md:ml-0 text-black-900_33 !text-lg"
+                          className="ml-1.5 md:ml-0 text-black-900 !text-lg"
                         >
                           Job Open
                         </Text>
                         <Text
                           size="4xl"
                           as="p"
-                          className="mt-px ml-1.5 md:ml-0 text-black-900_33 !text-4xl"
+                          className="mt-px ml-1.5 md:ml-0 text-black-900 !text-4xl"
                         >
                           10
                         </Text>
@@ -309,14 +309,14 @@ export default function DashboardDesktopPage() {
                             <Text
                               size="2xl"
                               as="p"
-                              className="text-black-900_33 !text-lg"
+                              className="text-black-900 !text-lg"
                             >
                               Total Employees
                             </Text>
                             <Text
                               size="4xl"
                               as="p"
-                              className="text-black-900_33 text-5xl font-medium"
+                              className="text-black-900 text-5xl font-medium"
                             >
                               216
                             </Text>
@@ -370,14 +370,14 @@ export default function DashboardDesktopPage() {
                             <Text
                               size="2xl"
                               as="p"
-                              className="text-black-900_33 !text-lg"
+                              className="text-black-900 !text-lg"
                             >
                               Talent Request
                             </Text>
                             <Text
                               size="4xl"
                               as="p"
-                              className="text-black-900_33 text-5xl font-medium"
+                              className="text-black-900 text-5xl font-medium"
                             >
                               16
                             </Text>
@@ -431,7 +431,7 @@ export default function DashboardDesktopPage() {
                     <div className="flex flex-row justify-center w-full pt-4 border-gray-300 border border-solid bg-white-A700 rounded-[12px]">
                       <div className="flex flex-col items-center justify-start w-full gap-4">
                         <div className="flex flex-row justify-between w-[94%] md:w-full">
-                          <Text as="p" className="mt-px text-black-900_33">
+                          <Text as="p" className="mt-px text-black-900">
                             Announcement
                           </Text>
                           <SelectBox
@@ -607,7 +607,7 @@ export default function DashboardDesktopPage() {
                       <div className="flex flex-col items-center justify-start w-full gap-2">
                         <div className="flex flex-col items-start justify-start w-[91%] md:w-full">
                           <div className="flex flex-row justify-between w-full">
-                            <Text as="p" className="mt-px text-black-900_33">
+                            <Text as="p" className="mt-px text-black-900">
                               Upcoming Schedule
                             </Text>
                             <SelectBox

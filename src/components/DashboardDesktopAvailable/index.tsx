@@ -16,10 +16,10 @@ export default function DashboardDesktopAvailable({
 }: Props) {
   return (
     <div {...props}>
-      <Text as="p" className="ml-2 md:ml-0 !text-black-900_33">
+      <Text as="p" className="ml-2 md:ml-0 !text-black-900">
         {available}
       </Text>
-      <Text size="3xl" as="p" className="ml-2 md:ml-0 !text-black-900_33">
+      <Text size="3xl" as="p" className="ml-2 md:ml-0 !text-black-900">
         {twentyfour}
       </Text>
       <Text size="lg" as="p" className="mb-0.5 ml-2 md:ml-0 !text-red-A200 !font-roboto">
